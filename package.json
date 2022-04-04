@@ -1,0 +1,32 @@
+{
+  "name": "module-jwt-mongodb",
+  "version": "1.0.0",
+  "description": "module-jwt-mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjean1/module-jwt-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjean1/module-jwt-mongodb/issues"
+  },
+  "homepage": "https://github.com/tjean1/module-jwt-mongodb#readme",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.12.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}
